@@ -8,7 +8,7 @@ const User = require('../model/User');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('index', { title: 'HEROKU SALOM' });
 });
 
 router.post('/register', (req,res,next) => {
